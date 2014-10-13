@@ -6,7 +6,6 @@ Template.carousel.rendered = () ->
 
 
 Template.carousel.imageObjs = ->
-  console.log( this )
   imageObjs = []
   for image,index in this.images
     active = ""
